@@ -41,13 +41,13 @@ When configuring your PingOne SDK application in the PingOne admin web console (
 
 ### Pairing
 
-To pair a device manually, call the following method with your pairing key:
+To manually pair the device, call the following method with your pairing key:
 
 ```swift
 @objc public static func pair(_ pairingKey: String, completionHandler: @escaping (NSError?) -> Void)
 ```
 
-To pair a device using OpedID Connect:
+To pair the device using OpedID Connect (automatic pairing):
 
 1. call this function to get the PingOne SDK mobile payload:
 ```swift

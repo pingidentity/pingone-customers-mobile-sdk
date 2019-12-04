@@ -72,7 +72,7 @@ To manually pair the device, call the following method with your pairing key:
 PingOne.pair(context, pairingKey, new PingOne.PingOneSDKCallback())
 ```
 
-To pair a device using OpedID Connect:
+To pair the device using OpedID Connect (automatic pairing):
 
 1. call this function to get the PingOne SDK mobile payload:
 ```java
