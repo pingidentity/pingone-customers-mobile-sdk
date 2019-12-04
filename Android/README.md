@@ -44,7 +44,7 @@ When configuring your PingOne SDK application in the PingOne admin web console (
     *  As the PingOne SDK component is loaded locally, you’ll have to add the PingOne SDK component’s dependencies manually in order to be able to compile and run it. Add these dependencies under the PingOne SDK component dependency:
 
 		```
-	    implementation 'androidx.appcompat:appcompat:1.0.2'
+	    implementation 'androidx.appcompat:appcompat:1.1.0'
 
 		implementation 'org.slf4j:slf4j-api:1.7.26'
 		implementation 'com.github.tony19:logback-android:2.0.0'
@@ -59,10 +59,9 @@ When configuring your PingOne SDK application in the PingOne admin web console (
 		//Google's gSon library to build and parse JSON format
 		implementation 'com.google.code.gson:gson:2.8.5'
 
-		//nimbus JWT and JOSE tokens library
-		implementation group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: '7.0.1'
-
-	    ```
+		//The jose.4.j library is an open source (Apache 2.0) implementation of JWT and the JOSE specification suite
+ 		implementation 'org.bitbucket.b_c:jose4j:0.6.5'
+```
 
 
 ### Pairing
