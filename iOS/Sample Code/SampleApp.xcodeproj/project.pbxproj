@@ -43,7 +43,6 @@
 		7B32BA9A23687A46008C1CF5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		7B81E4FA2338B7610040DC79 /* PingOne.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PingOne.xcframework; sourceTree = "<group>"; };
 		7B9C1FBC2357A0F80069315F /* PingOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PingOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B9C1FED23585AEF0069315F /* Debug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Debug-Info.plist"; sourceTree = "<group>"; };
 		7BA5246C229AA65200DD0E06 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA5246F229AA65200DD0E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BA52471229AA65200DD0E06 /* ManualPairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualPairingViewController.swift; sourceTree = "<group>"; };
@@ -113,7 +112,6 @@
 				7BA52473229AA65200DD0E06 /* Main.storyboard */,
 				7BA52476229AA65300DD0E06 /* Assets.xcassets */,
 				7BA52478229AA65300DD0E06 /* LaunchScreen.storyboard */,
-				7B9C1FED23585AEF0069315F /* Debug-Info.plist */,
 				7BA5247B229AA65300DD0E06 /* Info.plist */,
 				7BA52481229AA69B00DD0E06 /* Localizable.strings */,
 				7B32BA9A23687A46008C1CF5 /* Alert.swift */,
